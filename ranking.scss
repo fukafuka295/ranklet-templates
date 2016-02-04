@@ -1,0 +1,51 @@
+/* Hosted on GitHub */
+#ranklet-{{context.id}} {
+    .ranklet-reset { // リセット
+        table, tr, td, div, span {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+            line-height: 1;
+            box-sizing: border-box;
+        }
+    }
+
+    .ranklet-table {
+        border-collapse: separate;
+        border-spacing: 8px 24px;
+        width: 100%;
+
+        td {
+            vertical-align: middle;
+        }
+
+        .ranklet-rank {
+            text-align: center;
+            font-size: 120%;
+        }
+
+        .ranklet-image {
+            text-align: center;
+            img {
+                max-width: 64px;
+                max-height: 64px;
+            }
+        }
+
+        .ranklet-meta {
+            .ranklet-title {
+                font-size: 120%;
+                line-height: 125%;
+            }
+
+            .ranklet-description {
+                margin-top: 8px;
+                line-height: 125%;
+            }
+        }
+    }
+
+}
