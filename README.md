@@ -6,6 +6,20 @@ Ranklet [ランクレット] ( https://ranklet.com )用のテンプレートセ�
 
 このリポジトリをフォークして、カスタムテンプレートの制作・配布にお役立てください。
 
+# テンプレートのインポート方法
+
+テンプレートの編集タブで、 `テンプレートの操作` &gt; `GitHubインポート` を選択します。
+
+<img src="readme/step10.png" width="480" alt="ステップ1">
+
+ダイアログにGitHubのパス(https://github.com/ 以降のパス)を指定し、インポートボタンを押します。
+
+<img src="readme/step20.png" width="480" alt="ステップ2">
+
+エディタにGitHub上からインポートされたテンプレートが反映されます。テンプレートを適用するには忘れずに保存を行ってください。
+
+<img src="readme/step30.png" width="480" alt="ステップ3">
+
 # ファイル構成
 
 Ranklet [ランクレット] のテンプレートと同様にMustacheを利用できます。

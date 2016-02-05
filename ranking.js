@@ -1,4 +1,4 @@
-// Hosted on GitHub
+// v1 Hosted on GitHub
 document.addEventListener('DOMContentLoaded', function() {
     var head = (document.getElementsByTagName('head'))[0],
         target = document.getElementById("ranklet-{{context.id}}");
